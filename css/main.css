@@ -1,0 +1,262 @@
+body {
+	background-color: #EBE8E4;
+	color: #222;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	
+}
+
+#border {
+	background-image: url("images/coffe2.jpg"); 
+	background-size: cover;
+}
+
+#maintitle {
+	color: rgb(255,255,255);
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
+	margin: (20px,8px,8px,0px);
+}
+#nav {
+	background-color: rgb(0,102,102);
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: block;
+	margin: 0px 0px 20px 0px; 
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+		
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; 
+	}
+	
+nav > ul > li > a {
+		color: #aaa;
+		display: block;
+		line-height: 56px;
+		padding: 0 24px;
+		text-decoration: none;
+		}
+nav > ul > li > a > .caret {
+	border-top: 4px solid #aaa;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: "";
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+	
+	-webkit-transition: color 0.1s linear;
+	-moz-transition: color 0.1s linear;
+	-o-transition: color 0.1s linear;
+	  transition: color 0.1s linear; 
+}
+nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+        }
+
+        nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+
+        nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+nav > ul > li > div {
+	background-color: rgb( 40, 44, 47 );
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	width: 165px;
+	visibility: hidden;
+	z-index: 100;
+	
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
+}
+
+nav > ul > li > div ul > li {
+		display: block;
+	}
+	
+nav > ul > li > div ul > li > a {
+			color: #fff;
+			display: block;
+			padding: 12px 24px;
+			text-decoration: none;
+		}
+	
+nav > ul > li > div ul > li:hover > a {
+		background-color: rgba( 255, 255, 255, 0.1);
+	}
+nav > ul > li:hover > div {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+#wrapper {
+    width: 100%;
+}
+#subwrapper {
+    display:table;
+}
+#pagewrapper {
+    width:70%;
+    display:table-cell;
+ }
+.sidebar {
+    line-height:30px;
+    height:300px;
+    float:left;
+    padding:5px; 
+	background-color: #EBE8E4;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: rgb(221,221,221);
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-top: 1px;
+}
+.sidebar ul li {
+	display: block;
+	list-style-type: none;
+	text-align: left;
+		
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; 
+	}
+h1{
+	float:right;
+	padding-bottom:5px;
+	color: #888;
+	font-size:20px;
+}
+
+#welcome {
+	font-size: 20px;
+}
+#text {
+	font-size: 16px;
+}
+#box {	
+	margin: 22px 22px 22px 22px ;
+
+}
+.Rbullet ul li {
+	display: inline-block;
+	list-style-type: none;
+		
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; 
+	}
+
+
+h2{
+	padding: 10px;
+	margin: 20px 22px 0px 42px;
+	color: #888;
+}
+.R {
+	padding-left: 10px;
+	padding-top: 1px;
+	margin: 20px 0px 0px 10px;
+}
+#container{
+	padding: 10px;
+	margin: 0px 22px 8px 22px;
+	border-radius: 10px;
+}
+#text{
+	margin: 0px 0px 0px 22px;
+}
+.pic{
+	margin: 0px 22px 8px 0px;
+}
+.section{
+	padding: 1px;
+	background-color: #EBE8E4;
+	border: 0px solid #dedede;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	margin: 5px 8px 20px 0px;
+	overflow: hidden; 
+	border-radius: 10px;
+	
+}
+.sectionR{
+	padding: 1px;
+	background-color: #fff;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	color: #888;
+	display: block;
+	margin: 0px 8px 20px 8px;
+	overflow: hidden; 
+}
+.centeredImage
+    {
+    margin: 5px 500px 5px 50px;
+}
+.Rbullet ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+.Rbullet ul {
+	background-color: #EBE8E4;
+	color: #888;
+}
+
+#threerows {
+	
+}
+h4{
+	padding: 5px;
+	background-color: rgb(0,102,102);
+	color: #aaa;
+	margin: 10px 8px 8px 8px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.section2 {
+	background-color: #EBE8E4;
+	color: #888;
+	display: block;
+	margin: 0px 8px 8px 8px;
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid;
+	padding: 5px;
+
+}
